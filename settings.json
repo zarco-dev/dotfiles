@@ -56,7 +56,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -73,9 +72,30 @@
     "telemetry.telemetryLevel": "off",
     "window.restoreWindows": "none",
     "workbench.editor.enablePreview": true,
-    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "codesnap.transparentBackground": true,
+    "codesnap.showWindowControls": false,
+    "codesnap.showLineNumbers": false,
+    "codesnap.backgroundColor": "#aab",
+    "remote.portsAttributes": {
+      "5500": {
+        "protocol": "https"
+      },
+      "8000": {
+        "protocol": "http"
+      }
+    },
+    "[ruby]": {
+      "editor.tabSize": 2,
+      "files.trimTrailingWhitespace": true,
+      "files.insertFinalNewline": true,
+      "files.trimFinalNewlines": true,
+      "editor.rulers": [
+        120
+      ]
+    }
 }
