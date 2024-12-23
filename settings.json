@@ -97,5 +97,6 @@
       "editor.rulers": [
         120
       ]
-    }
+    },
+    "terminal.integrated.env.osx": {}
 }
